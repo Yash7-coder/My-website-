@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    weight: 100%;
+}
+#main{
+    height: 135%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#heading{
+    height: 20%;
+    width: 100%;
+   background-image: url("https://img.freepik.com/free-vector/abstract-background-with-modern-halftone-dots-design_1048-13747.jpg");
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    color: white;
+    transition-delay: 1s;
+}
+#heading img{
+    height: 100%;
+   border: 2px solid black;
+   border-radius: 8%;
+    object-fit: cover;
+    
+}
+#heading img:hover{
+   border: 3px solid yellow;
+}
+
+
+
+#heading h1{
+    font-size: 300%;
+}
+#heading h3{
+    font-style: oblique;
+}
+#pg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border: 5px solid yellow;
+    background-image: url("https://img.freepik.com/free-vector/abstract-background-with-modern-halftone-dots-design_1048-13747.jpg");
+}
+#pg1{
+    width: 40%;
+    height: 100%;
+    color: white;
+   background-image: url("https://img.freepik.com/free-vector/abstract-background-with-modern-halftone-dots-design_1048-13747.jpg");
+}
+    
+#pg1 h2{
+    margin: 5%;
+}
+#pg1 h2:hover{
+    color: skyblue;
+}
+#pg1 h4{
+    margin: 2%;
+
+}
+#pg1 p{
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 4%;
+}
+#pg2{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border: 5px solid yellow;
+    border-radius: 5%;
+    color: white;
+    background-image: url("https://img.freepik.com/free-vector/abstract-background-with-modern-halftone-dots-design_1048-13747.jpg");
+}
+#pg2 h2{
+    margin: 5%;
+    margin-left: 3%;
+
+}
+#pg2 h2:hover{
+    color: skyblue;
+}
+#pg2 h4{
+  margin: 4%;
+  margin-left: 3%;
+
+}
+#pg2 p{
+    margin: 3%;
+    margin-left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading h4:hover{
+padding: 2px 3px;
+border: 2px solid skyblue;
+}
+#last{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
